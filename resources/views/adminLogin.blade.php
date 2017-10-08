@@ -20,8 +20,8 @@
                   
                       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                          <li><a href="index.html">Login</a></li>
-                          <li><a href="register.html">Register</a></li>
+                          <li><a href="/login">Login</a></li>
+                          <li><a href="/register">Register</a></li>
                           
                         </ul>
                         <form class="navbar-form navbar-left" role="search">
@@ -31,7 +31,7 @@
                           <button class="btn btn-default" type="submit">Submit</button>
                         </form>
                         <ul class="nav navbar-nav navbar-right">
-                          <li class="active"><a href="adminlogin.html">Admin <span class="sr-only">(current)</span></a></li>
+                          <li class="active"><a href="/adminLogin">Admin <span class="sr-only">(current)</span></a></li>
                         </ul>
                       </div>
                     </div>

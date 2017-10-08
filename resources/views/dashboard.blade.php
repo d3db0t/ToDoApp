@@ -21,7 +21,7 @@
                       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                           <li class="active"><a href="#">Dashboard <span class="sr-only">(current)</span></a></li>
-                          <li><a href="addTask.html">AddTask</a></li>
+                          <li><a href="/add">AddTask</a></li>
                           
                         </ul>
                         <form class="navbar-form navbar-left" role="search">
@@ -31,7 +31,7 @@
                           <button class="btn btn-default" type="submit">Submit</button>
                         </form>
                         <ul class="nav navbar-nav navbar-right">
-                          <li><a href="#">Logout</a></li>
+                          <li><a href="/logout">Logout</a></li>
                         </ul>
                       </div>
                     </div>

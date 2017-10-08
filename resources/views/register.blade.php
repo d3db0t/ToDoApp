@@ -20,7 +20,7 @@
                   
                       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                          <li><a href="index.html">Login</a></li>
+                          <li><a href="/login">Login</a></li>
                           <li class="active"><a href="#">Register <span class="sr-only">(current)</span></a></li>
                           
                         </ul>
@@ -31,7 +31,7 @@
                           <button class="btn btn-default" type="submit">Submit</button>
                         </form>
                         <ul class="nav navbar-nav navbar-right">
-                          <li><a href="adminLogin.html">Admin</a></li>
+                          <li><a href="/adminLogin">Admin</a></li>
                         </ul>
                       </div>
                     </div>
