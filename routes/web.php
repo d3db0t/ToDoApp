@@ -14,11 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+/*
 Route::get('/login', function () {
-    return view('index');
+    return view('login');
 });
-
+*/
 Route::get('/register', function () {
     return view('register');
 });
@@ -38,3 +38,6 @@ Route::get('/add', function () {
 Route::get('/edit', function () {
     return view('editTask');
 });
+
+//Routing using controllers
+Route::get('/login', 'UserController@login');
