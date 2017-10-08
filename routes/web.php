@@ -39,7 +39,13 @@ Route::get('/edit', function () {
     return view('editTask');
 });
 
-//Routing using controllers
+// Routing using controllers
+
+// UserController Routes
 Route::get('/login', 'UserController@login');
 Route::get('/register', 'UserController@register');
 Route::get('/dashboard', 'UserController@dashboard');
+
+// AdminController Routes
+Route::get('/adminLogin', 'AdminController@adminLogin');
+Route::get('/adminPage', 'AdminController@adminPage');
