@@ -41,3 +41,5 @@ Route::get('/edit', function () {
 
 //Routing using controllers
 Route::get('/login', 'UserController@login');
+Route::get('/register', 'UserController@register');
+Route::get('/dashboard', 'UserController@dashboard');
