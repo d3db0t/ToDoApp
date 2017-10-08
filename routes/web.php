@@ -49,3 +49,7 @@ Route::get('/dashboard', 'UserController@dashboard');
 // AdminController Routes
 Route::get('/adminLogin', 'AdminController@adminLogin');
 Route::get('/adminPage', 'AdminController@adminPage');
+
+// TaskController Routes
+Route::get('/add', 'TaskController@addTask');
+Route::get('/edit', 'TaskController@editTask');
