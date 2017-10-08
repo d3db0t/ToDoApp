@@ -12,5 +12,29 @@
 */
 
 Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/login', function () {
     return view('index');
+});
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/adminLogin', function () {
+    return view('adminLogin');
+});
+
+Route::get('/adminPage', function () {
+    return view('adminPage');
+});
+
+Route::get('/add', function () {
+    return view('addTask');
+});
+
+Route::get('/edit', function () {
+    return view('editTask');
 });
