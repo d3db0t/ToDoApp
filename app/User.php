@@ -27,6 +27,10 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    # Guarded means the model can not insert to that particular column
+    # So the user can not insert into the (role) column and change it to admin for example
+    protected $guarded = ['role'];
+
     # User can have many tasks
     public function tasks()
     {
